@@ -8,7 +8,7 @@
             "description": "telegram bot token here",
             "required": true
         },
-        "GUARDIAN_API": {
+        "KUKI_API": {
             "description": "join @sandapodalama",
             "required": true
         },
