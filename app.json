@@ -1,0 +1,37 @@
+{
+    "name": "GUARDIAN",
+    "description": "Hello, I am Guardian An Intelligent ChatBot. If You Are Feeling Lonely, You can Always Come to me and Chat With Me!",
+    "logo": "https://telegra.ph/file/2331238b6ea8e29469ed4.jpg",
+    "repository": "https://github.com/asparzival/Godthambi",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "telegram bot token here",
+            "required": true
+        },
+        "GUARDIAN_API": {
+            "description": "join @sandapodalama",
+            "required": true
+        },
+        "ERROR_LOG": {
+            "description": "error channel log id",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
