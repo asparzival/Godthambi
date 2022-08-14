@@ -203,7 +203,7 @@ async def help(client, message):
                             reply_markup=buttons)
         
     else:    
-        await message.reply_text("/start - Start The Bot\n/chat - Send a message to this bot\n/setupchat - Active Kuki Chatbot In Group\n/removechat - Disable Kuki Chatbot In Group")
+        await message.reply_text("/start - Start The Bot\n/chat - Send a message to this bot\n/setupchat - Active Guardian Chatbot In Group\n/removechat - Disable Guardian Chatbot In Group")
 
 
 
