@@ -184,7 +184,7 @@ async def start(client, message):
     else:
         buttons = [[InlineKeyboardButton("Support", url="https://t.me/sandapodalama"),
                     InlineKeyboardButton("Channel", url="https://t.me/guardians_1"),
-                    InlineKeyboardButton("Repo", url="https://github.com")
+                    InlineKeyboardButton("Repo", url="https://telegra.ph/file/d5f892fe7e83d880a76ef.mp4")
                     ]]
         Photo = "https://telegra.ph/file/2331238b6ea8e29469ed4.jpg"
         await message.reply_photo(Photo, caption=f"Hello [{message.from_user.first_name}](tg://user?id={message.from_user.id}), Machine Learning Chat Bot that can talk about any topic in any language\n /help - Help Commands\n Powered By @sandapodalama", reply_markup=InlineKeyboardMarkup(buttons))
