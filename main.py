@@ -36,7 +36,7 @@ async def is_admins(chat_id: int):
 async def addchat(_, message): 
     kukidb = MongoClient(MONGO_URL)
     
-    kuki = kukidb["KukiDb"]["Kuki"] 
+    kuki = kukidb["KukiDb"]["HI"] 
     if message.from_user:
         user = message.from_user.id
         chat_id = message.chat.id
@@ -60,7 +60,7 @@ async def addchat(_, message):
 async def rmchat(_, message): 
     kukidb = MongoClient(MONGO_URL)
     
-    kuki = kukidb["KukiDb"]["Kuki"] 
+    kuki = kukidb["KukiDb"]["HI"] 
     if message.from_user:
         user = message.from_user.id
         chat_id = message.chat.id
